@@ -1,0 +1,153 @@
+.ourProducts {
+    margin-top: 200px;
+
+    &__title {
+        h1 {
+            font-family: 'Noteworthy';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 80px;
+            line-height: 138.5%;
+        }
+    }
+
+    &__beeImage {
+        img {
+            margin-left: 983px;
+        }
+    }
+
+    &__blocks {
+        margin-top: 111px;
+        display: flex;
+        justify-content: center;
+
+        &__1 {
+            width: 247px;
+            height: 319px;
+            background: #ffd465;
+            border-radius: 35px;
+            margin-left: 34px;
+            margin-right: 34px;
+            img {
+                margin-top: -100px;
+            }
+
+            h1 {
+                font-family: 'Mont';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 26px;
+                text-align: center;
+                margin-top: 33px;
+            }
+
+            h2 {
+                font-family: 'Mont';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                text-align: center;
+                margin-top: 28px;
+            }
+        }
+
+        &__2 {
+            width: 247px;
+            height: 319px;
+            background: #ffd465;
+            border-radius: 35px;
+            margin-left: 34px;
+            margin-right: 34px;
+            img {
+                margin-top: -100px;
+            }
+
+            h1 {
+                font-family: 'Mont';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 26px;
+                text-align: center;
+                margin-top: 46px;
+            }
+
+            h2 {
+                font-family: 'Mont';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                text-align: center;
+                margin-top: 28px;
+            }
+        }
+
+        &__3 {
+            width: 247px;
+            height: 319px;
+            background: #ffd465;
+            border-radius: 35px;
+            margin-left: 34px;
+            margin-right: 34px;
+            img {
+                margin-top: -100px;
+            }
+
+            h1 {
+                font-family: 'Mont';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 26px;
+                text-align: center;
+                margin-top: 15px;
+            }
+
+            h2 {
+                font-family: 'Mont';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                text-align: center;
+                margin-top: 27px;
+            }
+        }
+
+        &__4 {
+            width: 247px;
+            height: 319px;
+            background: #ffd465;
+            border-radius: 35px;
+            margin-left: 34px;
+            margin-right: 34px;
+            img {
+                margin-top: -100px;
+            }
+
+            h1 {
+                font-family: 'Mont';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 26px;
+                text-align: center;
+                margin-top: 45px;
+            }
+
+            h2 {
+                font-family: 'Mont';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                text-align: center;
+                margin-top: 30px;
+            }
+        }
+    }
+}

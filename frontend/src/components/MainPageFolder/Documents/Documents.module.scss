@@ -1,0 +1,45 @@
+.documents {
+    margin-top: 286px;
+
+    &__title {
+        display: flex;
+        justify-content: center;
+        h1 {
+            font-family: 'Noteworthy';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 80px;
+            line-height: 138.5%;
+        }
+    }
+
+    &__bee {
+        img {
+            margin-top: -35px;
+            margin-right: -968px;
+        }
+    }
+
+    &__text {
+        margin-top: 19px;
+        display: flex;
+        justify-content: center;
+        h2 {
+            width: 1112px;
+            height: 66px;
+            font-family: 'Mont';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 138.5%;
+        }
+    }
+
+    &__docs {
+        display: flex;
+        justify-content: center;
+        img {
+            margin: 44px 43px 0px 43px;
+        }
+    }
+}

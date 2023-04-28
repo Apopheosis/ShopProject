@@ -1,0 +1,230 @@
+.honey {
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        flex: 1 1 auto;
+
+        &__img1 {
+            margin-top: -75px;
+        }
+
+        &__img2 {
+            margin-top: 491px;
+        }
+
+        &__mainblock {
+            display: flex;
+            flex-direction: column;
+
+            &__path {
+                margin-top: 55px;
+                width: 1170px;
+                height: 54px;
+                background: #ffd465;
+                border-radius: 25px;
+
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                h1 {
+                    font-family: 'Courier New', Courier, monospace;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 20px;
+                    margin-left: 20px;
+                }
+
+                h2 {
+                    font-family: 'Courier New', Courier, monospace;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 20px;
+                    margin-left: 10px;
+                }
+            }
+
+            &__product {
+                display: flex;
+                margin-top: 98px;
+                justify-content: space-between;
+
+                &__images {
+                    display: flex;
+                    flex-direction: column;
+
+                    &__big {
+                        display: flex;
+                        align-items: center;
+
+                        .left {
+                            margin-right: 58px;
+                        }
+
+                        .right {
+                            margin-left: 58px;
+                            transform: scale(-1, 1);
+                        }
+                    }
+
+                    &__small {
+                        margin-top: 85px;
+
+                        img {
+                            margin-left: 27px;
+                            margin-right: 27px;
+                        }
+                    }
+                }
+
+                &__desc {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: left;
+                    h1 {
+                        font-family: 'Mont';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 32px;
+                        line-height: 41px;
+                        margin-bottom: 16px;
+                    }
+
+                    h2 {
+                        font-family: 'Mont';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 24px;
+                        line-height: 31px;
+                        margin-bottom: 46px;
+                    }
+
+                    h3 {
+                        font-family: 'Mont';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 26px;
+                        margin-bottom: 31px;
+                    }
+
+                    h4 {
+                        font-family: 'Mont';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 20px;
+                        margin-bottom: 10px;
+                    }
+
+                    h5 {
+                        font-family: 'Mont';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 20px;
+                        margin-bottom: 36px;
+                    }
+
+                    button {
+                        cursor: pointer;
+                        width: 259px;
+                        height: 54px;
+                        border: 1px solid #ffd465;
+                        background: #ffd465;
+                        border-radius: 25px;
+
+                        font-family: 'Mont';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 26px;
+                    }
+                }
+            }
+
+            &__text {
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+                margin-top: 124px;
+                width: 1167px;
+                height: 140px;
+                margin-bottom: 175px;
+                h1 {
+                    font-family: 'Mont';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 26px;
+                    margin-bottom: 31px;
+                }
+
+                h2 {
+                    font-family: 'Mont';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        max-height: 175px;
+        margin-top: 168px;
+    }
+
+    h1 {
+        font-family: 'Mont';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        margin-top: 33px;
+        width: 310px;
+        height: 52px;
+        color: #000000;
+    }
+
+    h3 {
+        font-family: 'Mont';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 26px;
+        margin-top: 25px;
+        color: #000000;
+    }
+
+    button {
+        width: 259px;
+        height: 54px;
+        background: #ffd465;
+        border-radius: 25px;
+        border: 1px solid #ffd465;
+        margin-top: 25px;
+
+        font-family: 'Mont';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+    }
+}
+

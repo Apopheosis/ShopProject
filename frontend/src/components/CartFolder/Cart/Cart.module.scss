@@ -1,0 +1,100 @@
+.cart {
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        flex: 1 1 auto;
+
+        &__img1 {
+            margin-top: -75px;
+        }
+
+        &__block {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            &__info {
+                width: 1170px;
+                height: 54px;
+                background: #ffd465;
+                border-radius: 25px;
+                margin-top: 65px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 31px;
+
+                h1 {
+                    font-family: 'Mont';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 31px;
+                    display: flex;
+                }
+            }
+
+            &__items {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
+
+            &__hr {
+                hr {
+                    margin-top: 88px;
+                    width: 1024px;
+                    height: 0px;
+                    border: 1px solid rgba(179, 134, 134, 0.4);
+                }
+            }
+
+            &__finals {
+                margin-left: auto;
+                h1 {
+                    margin-top: 69px;
+                    margin-bottom: 44px;
+                    font-family: 'Mont';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 36px;
+                    line-height: 46px;
+                }
+
+                button {
+                    width: 330px;
+                    height: 54px;
+                    background: #ffd465;
+                    border: 1px solid #ffd465;
+                    border-radius: 25px;
+                    font-family: 'Mont';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 26px;
+                    cursor: pointer;
+                }
+
+                h2 {
+                    margin-top: 28px;
+                    width: 309px;
+                    height: 40px;
+                    font-family: 'Mont';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+            }
+        }
+
+        &__img2 {
+            margin-top: 724px;
+            margin-bottom: 65px;
+        }
+    }
+}

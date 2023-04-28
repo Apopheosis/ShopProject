@@ -1,0 +1,49 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        max-height: 175px;
+        margin-top: 168px;
+    }
+
+    h1 {
+        font-family: 'Mont';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        margin-top: 33px;
+        width: 310px;
+        height: 52px;
+        color: #000000;
+    }
+
+    h3 {
+        font-family: 'Mont';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 26px;
+        margin-top: 25px;
+        color: #000000;
+    }
+
+    button {
+        width: 259px;
+        height: 54px;
+        background: #ffd465;
+        border-radius: 25px;
+        border: 1px solid #ffd465;
+        margin-top: 25px;
+
+        font-family: 'Mont';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+    }
+}

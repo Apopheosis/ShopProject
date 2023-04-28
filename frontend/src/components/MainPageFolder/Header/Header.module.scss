@@ -1,0 +1,50 @@
+.header {
+    &__logoAndCart {
+        display: flex;
+        justify-content: space-between;
+
+        h1 {
+            margin-left: 135px;
+            margin-top: 24px;
+            font-family: 'Noteworthy', sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 28px;
+            line-height: 45px;
+            color: #000000;
+        }
+
+        img {
+            margin-right: 139px;
+            margin-top: 23px;
+            width: 44px;
+            height: 44px;
+            left: 1257px;
+
+            background-blend-mode: luminosity;
+            mix-blend-mode: normal;
+            opacity: 0.7;
+        }
+
+        &__headerContent {
+            display: flex;
+            align-items: center;
+            margin-top: 28px;
+            line-height: 20px;
+            margin-left: 112px;
+            margin-right: 216px;
+
+            h2 {
+                margin-left: 30px;
+                margin-right: 30px;
+                justify-content: space-between;
+                font-family: 'Mont';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                color: #000000;
+            }
+        }
+    }
+}

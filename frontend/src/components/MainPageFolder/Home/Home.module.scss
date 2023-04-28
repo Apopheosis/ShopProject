@@ -1,0 +1,58 @@
+.home {
+    &__cells {
+        display: flex;
+        justify-content: space-between;
+
+        &__1 {
+            margin-top: -70px;
+        }
+
+        &__2 {
+            margin-top: 24px;
+        }
+
+        &__main {
+            margin-right: 50px;
+            &__title {
+                h1 {
+                    margin-top: 139px;
+                    font-family: 'Noteworthy';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 85px;
+                    line-height: 137.5%;
+                    text-align: center;
+                }
+            }
+
+            &__info {
+                h1 {
+                    margin-top: 41px;
+                    font-family: 'Mont';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 26px;
+                    text-align: center;
+                }
+            }
+
+            &__button {
+                button {
+                    font-family: 'Mont';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 23px;
+                    background: #ffd465;
+                    border-radius: 25px;
+                    width: 259px;
+                    height: 54px;
+                    box-sizing: border-box;
+                    border: 1px solid #ffd465;
+                    margin-top: 61px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,172 @@
+.reviews {
+    margin-top: 291px;
+
+    &__title {
+        h1 {
+            font-family: 'Noteworthy';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 80px;
+            line-height: 138.5%;
+        }
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+
+        img {
+            width: 300px;
+        }
+
+        &__pic2 {
+            margin-top: 326px;
+        }
+
+        &__revs {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &__rev1 {
+                width: 355px;
+                height: 334px;
+                background: #ffd465;
+                border-radius: 35px;
+                margin: 0px 52px 0px -135px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                h1 {
+                    font-family: 'Mont';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 26px;
+                    margin-bottom: 16px;
+                }
+
+                hr {
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 112px;
+                    border: 1px solid rgba(0, 0, 0, 0.1);
+                }
+
+                h2 {
+                    font-family: 'Mont';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 20px;
+                    text-align: center;
+                    color: #000000;
+                    margin-top: 25px;
+                    padding-left: 24px;
+                    padding-right: 24px;
+                }
+            }
+
+            &__rev2 {
+                margin-top: 120px;
+                &__div {
+                    width: 355px;
+                    height: 443px;
+                    background: #ffd465;
+                    border-radius: 35px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    h1 {
+                        font-family: 'Mont';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 26px;
+                        margin-bottom: 16px;
+                    }
+
+                    hr {
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 112px;
+                        border: 1px solid rgba(0, 0, 0, 0.1);
+                    }
+
+                    h2 {
+                        font-family: 'Mont';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 20px;
+                        text-align: center;
+                        color: #000000;
+                        margin-top: 25px;
+                        padding-left: 24px;
+                        padding-right: 24px;
+                    }
+                }
+
+                &__button {
+                    margin-top: 65px;
+                    button {
+                        width: 259px;
+                        height: 53px;
+                        border: 1px solid #ffd465;
+                        background-color: #ffd465;
+                        border-radius: 25px;
+
+                        font-family: 'Mont';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 23px;
+                        text-align: center;
+                    }
+                }
+            }
+
+            &__rev3 {
+                width: 355px;
+                height: 334px;
+                background: #ffd465;
+                border-radius: 35px;
+                margin: 0px -135px 0px 52px;
+                z-index: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                h1 {
+                    font-family: 'Mont';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 26px;
+                    margin-bottom: 16px;
+                }
+
+                hr {
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 112px;
+                    border: 1px solid rgba(0, 0, 0, 0.1);
+                }
+
+                h2 {
+                    font-family: 'Mont';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 20px;
+                    text-align: center;
+                    color: #000000;
+                    margin-top: 25px;
+                    padding-left: 24px;
+                    padding-right: 24px;
+                }
+            }
+        }
+    }
+}

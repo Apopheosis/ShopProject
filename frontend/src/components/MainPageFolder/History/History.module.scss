@@ -1,0 +1,61 @@
+.history {
+    margin-top: 134px;
+    margin-bottom: 293px;
+    &__title {
+        h1 {
+            font-family: 'Noteworthy';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 80px;
+            line-height: 138.5%;
+        }
+    }
+
+    &__sunflower {
+        display: flex;
+        justify-content: left;
+        margin-top: -150px;
+    }
+
+    &__textAndPic {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &__text {
+            width: 452px;
+            height: 331px;
+            margin-right: 42px;
+            h2 {
+                text-align: left;
+                font-family: 'Mont';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 23px;
+                margin-bottom: 50px;
+            }
+
+            button {
+                width: 259px;
+                height: 54px;
+                border-radius: 25px;
+                background-color: #ffd465;
+                border: 1px solid #ffd465;
+                margin-right: 340px;
+
+                font-family: 'Mont';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 23px;
+            }
+        }
+
+        &__image {
+            width: 673px;
+            height: 533px;
+            border-radius: 35px;
+        }
+    }
+}
